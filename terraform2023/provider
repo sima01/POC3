@@ -1,0 +1,8 @@
+provider "google" {
+  project = "noparast"
+  region  = "us-central1"
+  credentials = "${file("noparast-8ad3f69d0304.json ")}"
+}
+
+
+
