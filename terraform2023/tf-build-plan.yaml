@@ -8,4 +8,6 @@ steps:
        ls
        cd terraform2023
        terraform init
-
+  - id: 'This Step runs terraform plan'
+    name: 'hashicorp/terraform:1.0.0'
+    script: terraform plan
