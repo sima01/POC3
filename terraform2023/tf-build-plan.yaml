@@ -5,6 +5,6 @@ steps:
     args: 
     - '-c'
     - | 
-    ls
-    terraform plan
+       ls
+       terraform plan
 
