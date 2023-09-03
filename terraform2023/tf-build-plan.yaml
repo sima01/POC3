@@ -6,5 +6,6 @@ steps:
     - '-c'
     - | 
        ls
-       terraform plan
+       cd terraform2023
+       terraform init
 
