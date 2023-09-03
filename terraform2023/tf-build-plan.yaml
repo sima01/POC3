@@ -10,4 +10,10 @@ steps:
        terraform init
   - id: 'This Step runs terraform plan'
     name: 'hashicorp/terraform:1.0.0'
-    script: terraform plan
+    entrypoint: 'sh'
+    args: 
+    - '-c'
+    - | 
+       ls
+       cd terraform2023
+       terraform plan
