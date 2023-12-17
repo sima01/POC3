@@ -1,5 +1,5 @@
 provider "google" {
-  project = "noparast"
+  project = "MyTerraformProject"
   region  = "us-central1"
 }
 
