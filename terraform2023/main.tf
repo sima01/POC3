@@ -1,7 +1,7 @@
 
 resource "google_project" "my_project" {
   name       = "My Terraform Project "
-  project_id = "MyTerraformProject"
+  project_id = "myterraformproject"
 }
 
 
