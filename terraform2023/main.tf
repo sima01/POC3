@@ -5,7 +5,7 @@ resource "google_project" "my_project" {
 }
 
 
-resource "google_storage_bucket" "bucket" {
+resource "google_storage_bucket" "buckett" {
   project       = "google_project.my_project.project_id"
   name          = "dragonfly202343"
   location      = "US"
