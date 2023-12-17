@@ -1,12 +1,12 @@
 
 resource "google_project" "my_project" {
-  name       = "My Terraform Project "
+  name       = "My Terraform Project"
   project_id = "myterraformproject0t"
 }
 
 
 resource "google_storage_bucket" "buckett" {
-  project       = "google_project.my_project.project_id"
+  project       = "myterraformproject0t"
   name          = "dragonfly202343"
   location      = "US"
   storage_class = "STANDARD"
