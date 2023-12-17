@@ -6,7 +6,7 @@ resource "google_project" "my_project" {
 
 
 resource "google_storage_bucket" "bucket" {
-  project       = google_project.my_project.id
+  project       = google_project.my_project_id
   name          = "dragonfly202343"
   location      = "US"
   storage_class = "STANDARD"
