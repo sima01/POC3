@@ -6,7 +6,6 @@ resource "google_project" "my_project" {
 
 
 resource "google_storage_bucket" "bucket" {
-  count =1
   name  = "dragonfly202343"
   location = "US"
   storage_class = "STANDARD"
