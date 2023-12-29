@@ -1,4 +1,4 @@
-variable " project_for_bucket " {
+variable "project_for_bucket" {
         type = string
         description = " create bucket in this project"
 }
